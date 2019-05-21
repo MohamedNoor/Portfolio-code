@@ -173,10 +173,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href="https://google.com">Github</a>
-              </Button>
-              <Button color>
-                <a href="https://google.com">Live Demo</a>
+                <a href="https://github.com/MohamedNoor/Python-Real-Estate">Github</a>
               </Button>
             </CardActions>
           </Card>

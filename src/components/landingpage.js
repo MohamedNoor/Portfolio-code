@@ -26,7 +26,7 @@ class Landing extends Component {
           </div>
             {/*title*/}
             <div className="banner-text">
-              <h1 className="animation-title">FrontEnd Developer</h1>
+              <h1 className="animation-title">IT Engineer</h1>
 
               <hr/>
               {/*skills*/}

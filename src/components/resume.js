@@ -72,9 +72,9 @@ class Resume extends Component {
           <Experience
             startYear={"Jan-2018"}
             endYear={"Current"}
-            jobName={"Sainsbury's"}
-            jobDescription={"store Colleage"}
-            location={"Ealing"}
+            jobName={"Taaj Services"}
+            jobDescription={"IT-Support"}
+            location={"London"}
           />
 
           <Experience
