@@ -33,7 +33,7 @@ class Resume extends Component {
             <h4 style={{color: 'grey'}}>Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: "75%"}}/>
             <h5>Location</h5>
-            <p>West London</p>
+            <p>London</p>
             <h5>Phone</h5>
             <p>07939040441</p>
             <h5>Email</h5>
@@ -42,6 +42,37 @@ class Resume extends Component {
           </Cell>
 
           <Cell className="resume-right-col" col={8}>
+          {/*Experience Section*/}
+          <h2>Experience</h2>
+
+          <Experience
+            startYear={"Nov-2019"}
+            endYear={"Current"}
+            jobName={"AWS Re:Start"}
+            jobTitle={"Cloud Engineer"}
+            jobDescription={"AWS re/Start is a skills development and job training program that prepares learners for careers in the cloud. The program’s mission is to build local talent by providing accessible AWS Cloud skills development and job opportunities to underserved populations."}
+            location={"London"}
+          />
+
+          <Experience
+            startYear={"Nov-2017"}
+            endYear={"June-2019"}
+            jobName={"Sainsbury's"}
+            jobTitle={"Store Colleague"}
+            jobDescription={" Assist with inventory counts and placement of new products, including new in-store or window displays. Restock items that are running low and maintain proper display appearances"}
+            location={"London"}
+          />
+
+          <Experience
+            startYear={"Sept-2017"}
+            endYear={"Nov-2017"}
+            jobName={"Fujitsu"}
+            jobTitle={"First Line IT support (3-Month-Contract)"}
+            jobDescription={"Provide first line I.T support (Fix) to end users. Interpret customer requirements and provide advice and support on potential solutions to resolve I.T related issues as they arise."}
+            location={"Bracknell"}
+          />
+          <hr style={{borderTop: '3px solid #e22947'}}/>
+
           <h2>Education</h2>
           {/*University */}
           <Education
@@ -59,50 +90,25 @@ class Resume extends Component {
             schoolDescription={"3 A-levels"}
           />
           <hr style={{borderTop: '3px solid #e22947'}}/>
-          {/*Experience Section*/}
-          <h2>Experience</h2>
-
-          <Experience
-            startYear={"Nov-2017"}
-            endYear={"Current"}
-            jobName={"Self-Studying"}
-            jobDescription={"Teaching my self to code and learning new Languages like javascript Html and Css"}
-          />
-
-          <Experience
-            startYear={"Jan-2018"}
-            endYear={"Current"}
-            jobName={"Taaj Services"}
-            jobDescription={"IT-Support"}
-            location={"London"}
-          />
-
-          <Experience
-            startYear={"Oct-2017"}
-            endYear={"Jan-2018"}
-            jobName={"Fujitsu"}
-            jobDescription={"First Line IT support (3-Month-Contract)"}
-            location={"Bracknell"}
-          />
-          <hr style={{borderTop: '3px solid #e22947'}}/>
+          
           {/*Skills section*/}
           <h2>Skills</h2>
 
           <Skills
-            skill="JavaScript"
-            progress={50}
-          />
-          <Skills
-            skill="HTML"
+            skill="Python"
             progress={70}
           />
           <Skills
-            skill="CSS"
+            skill="Linux"
             progress={50}
           />
           <Skills
-            skill="React"
-            progress={30}
+            skill="MySQL"
+            progress={50}
+          />
+          <Skills
+            skill="AWS"
+            progress={50}
           />
           </Cell>
         </Grid>

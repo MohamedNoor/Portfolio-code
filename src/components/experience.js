@@ -10,6 +10,7 @@ class Experience extends Component {
         </Cell>
         <Cell col={8}>
           <h4 style={{marginTop: '8px'}}> {this.props.jobName}</h4>
+          <p>{this.props.jobTitle}</p>
           <p>{this.props.jobDescription}</p>
           <p>{this.props.location}</p>
         </Cell>

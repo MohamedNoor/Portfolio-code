@@ -26,20 +26,24 @@ class Landing extends Component {
           </div>
             {/*title*/}
             <div className="banner-text">
-              <h1 className="animation-title">IT Engineer</h1>
+              <h1 className="animation-title">AWS Cloud Engineer</h1>
 
               <hr/>
               {/*skills*/}
-              <p className="animation-skills">HTML | CSS | JavaScript | React | Python</p>
+              <p className="animation-skills">Linux | MySQL | AWS | Python | React</p>
 
               <div className="socila-links">
               {/*Linked in*/}
-                <a href="" rel="noopener noreferrer" target="_blank">
+                <a href="https://www.linkedin.com/in/mohamed-noor-80349319a/" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-linkedin" aria-hidden="true"/>
                 </a>
               {/*Github link*/}
                 <a href="https://github.com/MohamedNoor" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github" aria-hidden="true"/>
+                </a>
+                {/*Medium link*/}
+                <a href="https://medium.com/@mohamed.noor2106/my-first-3-scripts-6b163dfbfaf4" rel="noopener noreferrer" target="_blank">
+                  <i class="fa fa-medium" aria-hidden="true"/>
                 </a>
               </div>
             </div>

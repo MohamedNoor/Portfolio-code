@@ -112,31 +112,7 @@ class Projects extends Component {
               <IconButton name="share"/>
             </CardMenu>
           </Card>
-
-            {/*project2 Recipe App*/}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.rac.co.uk/images/blog/food-festival-france.jpg) center / cover'}}>
-              React Recipe App
-            </CardTitle>
-            <CardText>
-              A recipe app is created where you search for recipes, an API call is then made and the relevent information about the recipe you want and is fetched and displayed.
-            </CardText>
-            <CardActions border>
-            {/*github link*/}
-              <Button colored>
-                <a href="https://www.google.co.uk" rel="noopener noreferrer" target="_blank">Github</a>
-              </Button>
-              {/*live demo link*/}
-              <Button colored>
-                <a href="https://mohamednoor.github.io/React-Recipe/" rel="noopener noreferrer" target="_blank">Live Demo</a>
-              </Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share"/>
-            </CardMenu>
-          </Card>
-
-            {/*project 3 Portfolio site*/}
+            {/*project 2 Portfolio site*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDI5Tb9h2dpRFJ8K1SF5L0M-71dmJRQF7ekh0yNz-VGPQLxcA8GA) center / cover'}}>
               React Portfolio site
@@ -162,18 +138,18 @@ class Projects extends Component {
       )
     } else if (this.state.activeTab===3) {
       return (
-        /*Python Projects*/
         <div className="project-grid">
+          {/*Python Projects 1 Todo app*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: 'white', height: '176px', background: 'url(https://jtre.sk/sites/default/files/styles/full_screen_1920x1080_/public/2018-03/jtre-real-estate.jpg?itok=gs-1WKSg)'}}>
-              Real Estate Project
+            <CardTitle style={{color: 'white', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwyxYpsegx_YREa3rCNjXNmn4a1_9Is07z8uMqLiA_g0O7-ak&s)'}}>
+              Todo App
             </CardTitle>
             <CardText>
-              A Real Estate website built with HTML, CSS, JavaScript and Django.
+              A Todo app built with django.
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href="https://github.com/MohamedNoor/Python-Real-Estate">Github</a>
+                <a href="https://github.com/MohamedNoor/Todo-App">Github</a>
               </Button>
             </CardActions>
           </Card>
