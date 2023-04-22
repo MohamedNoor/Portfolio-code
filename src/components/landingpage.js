@@ -26,11 +26,11 @@ class Landing extends Component {
           </div>
             {/*title*/}
             <div className="banner-text">
-              <h1 className="animation-title">AWS Cloud Engineer</h1>
+              <h1 className="animation-title">Cloud Engineer</h1>
 
               <hr/>
               {/*skills*/}
-              <p className="animation-skills">Linux | MySQL | AWS | Python | React</p>
+              <p className="animation-skills">AWS | Linux | Jenkins | Git | Python | Vault | Terraform | Mesos | Kubernates</p>
 
               <div className="socila-links">
               {/*Linked in*/}

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
 import Avatar from 'avataaars';
 
 
@@ -34,8 +33,6 @@ class Resume extends Component {
             <hr style={{borderTop: '3px solid #833fb2', width: "75%"}}/>
             <h5>Location</h5>
             <p>London</p>
-            <h5>Phone</h5>
-            <p>07939040441</p>
             <h5>Email</h5>
             <p>Mohamed.Noor2106@gmail.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: "75%"}}/>
@@ -44,33 +41,34 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
           {/*Experience Section*/}
           <h2>Experience</h2>
+          
+          <Experience
+            startYear={"March-2020"}
+            endYear={"Current"}
+            jobName={"Sainsbury's"}
+            jobTitle={"Cloud Engineer"}
+            jobDescription={ 
+            <p>
+            - Managed the infrastructure of the organizations cloud environment using CloudFormation, Ansible, and Vault to create resources, deploy applications, and manage secrets.<br></br>
+            - Conducted cost analysis on the AWS environment, upgraded infrastructure, and automated procedures to improve efficiency.<br></br>
+            - Collaborated with developers to resolve issues during application deployment on Mesos, ensured version control, and conducted code reviews.<br></br>
+            - Created implementation documentation to help support teams and developers utilize the cloud environment effectively.<br></br>
+            - Managed incidents and participated in on-call rotation to ensure the smooth operation of the cloud infrastructure.<br></br>
+            - Set up alerts and monitors on services to proactively identify and address potential issues, and responded to alerts in production and lower environments.<br></br>
+            </p>
+          }
+            location={"London/Remote"}
+          />
 
           <Experience
             startYear={"Nov-2019"}
-            endYear={"Current"}
+            endYear={"March-2020"}
             jobName={"AWS Re:Start"}
             jobTitle={"Cloud Engineer"}
             jobDescription={"AWS re/Start is a skills development and job training program that prepares learners for careers in the cloud. The program’s mission is to build local talent by providing accessible AWS Cloud skills development and job opportunities to underserved populations."}
             location={"London"}
           />
 
-          <Experience
-            startYear={"Nov-2017"}
-            endYear={"June-2019"}
-            jobName={"Sainsbury's"}
-            jobTitle={"Store Colleague"}
-            jobDescription={" Assist with inventory counts and placement of new products, including new in-store or window displays. Restock items that are running low and maintain proper display appearances"}
-            location={"London"}
-          />
-
-          <Experience
-            startYear={"Sept-2017"}
-            endYear={"Nov-2017"}
-            jobName={"Fujitsu"}
-            jobTitle={"First Line IT support (3-Month-Contract)"}
-            jobDescription={"Provide first line I.T support (Fix) to end users. Interpret customer requirements and provide advice and support on potential solutions to resolve I.T related issues as they arise."}
-            location={"Bracknell"}
-          />
           <hr style={{borderTop: '3px solid #e22947'}}/>
 
           <h2>Education</h2>
@@ -91,25 +89,7 @@ class Resume extends Component {
           />
           <hr style={{borderTop: '3px solid #e22947'}}/>
           
-          {/*Skills section*/}
-          <h2>Skills</h2>
 
-          <Skills
-            skill="Python"
-            progress={70}
-          />
-          <Skills
-            skill="Linux"
-            progress={50}
-          />
-          <Skills
-            skill="MySQL"
-            progress={50}
-          />
-          <Skills
-            skill="AWS"
-            progress={50}
-          />
           </Cell>
         </Grid>
       </div>
