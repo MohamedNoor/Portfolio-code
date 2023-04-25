@@ -10,17 +10,10 @@ class Contacts extends Component {
 
           <Cell col={12}>
             <div className="contact-list">
-              <p className="details">If you want to get in contact with me please dont hestitate to Email or Phone me.</p>
+              <p className="details">If you want to get in contact with me please dont hestitate to Email me.</p>
               <hr/>
             {/*list imported form list library form mdi*/}
             <List>
-              {/*phone icon for contact page*/}
-              <ListItem>
-                <ListItemContent className="ListItemContent">
-                <i className="fa fa-phone" aria-hidden="true"/>
-                07939040441
-                </ListItemContent>
-              </ListItem>
               {/*Email icon for contact page*/}
               <ListItem>
                 <ListItemContent className="ListItemContent">
