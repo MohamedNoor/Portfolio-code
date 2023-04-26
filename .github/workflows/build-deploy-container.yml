@@ -9,7 +9,7 @@ env:
 
 jobs:
   build-and-push:
-    runs-on: node:14-alpine
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -21,7 +21,7 @@ jobs:
         password: ${{ secrets.DOCKERHUBTOKEN }}
 
     - name: Build Docker image
-      run: docker-compose build -t $IMAGE_NAME
+      run: docker build -t ${{ secrets.DOCKERHUBUSERNAME }}/$IMAGE_NAME .
 
     - name: Push Docker image to Docker Hub
-      run: docker-compose push $IMAGE_NAME
+      run: docker push ${{ secrets.DOCKERHUBUSERNAME }}/$IMAGE_NAME
