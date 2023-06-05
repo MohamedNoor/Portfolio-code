@@ -30,7 +30,7 @@ class Landing extends Component {
 
               <hr/>
               {/*skills*/}
-              <p className="animation-skills">AWS | Linux | Jenkins | Git | Python | Vault | Terraform | Mesos | Kubernates</p>
+              <p className="animation-skills">AWS | Linux | Jenkins | Git | Python | Terraform | Docker</p>
 
               <div className="socila-links">
               {/*Linked in*/}
@@ -40,10 +40,6 @@ class Landing extends Component {
               {/*Github link*/}
                 <a href="https://github.com/MohamedNoor" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github" aria-hidden="true"/>
-                </a>
-                {/*Medium link*/}
-                <a href="https://medium.com/@mohamed.noor2106/my-first-3-scripts-6b163dfbfaf4" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-medium" aria-hidden="true"/>
                 </a>
               </div>
             </div>
