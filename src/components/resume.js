@@ -45,16 +45,19 @@ class Resume extends Component {
           <Experience
             startYear={"March-2020"}
             endYear={"Current"}
-            jobName={"Sainsbury's"}
-            jobTitle={"Cloud Engineer"}
+            jobName={"Sainsbury's - Cloud Engineer"}
             jobDescription={ 
             <p>
-            - Managed the infrastructure of the organizations cloud environment using CloudFormation, Ansible, and Vault to create resources, deploy applications, and manage secrets.<br></br>
-            - Conducted cost analysis on the AWS environment, upgraded infrastructure, and automated procedures to improve efficiency.<br></br>
-            - Collaborated with developers to resolve issues during application deployment on Mesos, ensured version control, and conducted code reviews.<br></br>
-            - Created implementation documentation to help support teams and developers utilize the cloud environment effectively.<br></br>
-            - Managed incidents and participated in on-call rotation to ensure the smooth operation of the cloud infrastructure.<br></br>
-            - Set up alerts and monitors on services to proactively identify and address potential issues, and responded to alerts in production and lower environments.<br></br>
+            - Ensuring platform stability at Sainsbury's, focusing on performance and availability.<br></br>
+            - Deployed/managed AWS resources to maintain highly available and scalable infrastructure, leveraging services such as EC2, S3 and RDS.<br></br>
+            - Automated infrastructure deployment using CloudFormation/Terraform.<br></br>
+            - Utilized Ansible for configuration management, system administration tasks.<br></br>
+            - Supported developers on jenkins pipelines, enabling efficient software delivery.<br></br>
+            - Leveraged Datadog for monitoring and alerting, established dashboards and implemented alerts to identify and address performance bottlenecks and system issues.<br></br>
+            - Implemented Vault for secure credential management. Assisting developers in debugging and troubleshooting Vault-related issues.<br></br>
+            - Utilized the ELK Stack for log management and analysis.<br></br>
+            - Troubleshoot complex issues across the platform.<br></br>
+            - Actively participated in knowledge sharing and collaborated with cross-functional teams to improve platform stability and implement best practices.<br></br>
             </p>
           }
             location={"London/Remote"}
@@ -63,8 +66,7 @@ class Resume extends Component {
           <Experience
             startYear={"Nov-2019"}
             endYear={"March-2020"}
-            jobName={"AWS Re:Start"}
-            jobTitle={"Cloud Engineer"}
+            jobName={"AWS Re:Start - Trainee Engineer"}
             jobDescription={"AWS re/Start is a skills development and job training program that prepares learners for careers in the cloud. The program’s mission is to build local talent by providing accessible AWS Cloud skills development and job opportunities to underserved populations."}
             location={"London"}
           />
@@ -80,16 +82,7 @@ class Resume extends Component {
             schoolDescription={"Bsc Mechanical Engineering"}
             schoolGrades={"2:1"}
           />
-          {/*A levels*/}
-          <Education
-            startYear={2010}
-            endYear={2012}
-            schoolName={"Harlington High School"}
-            schoolDescription={"3 A-levels"}
-          />
           <hr style={{borderTop: '3px solid #e22947'}}/>
-          
-
           </Cell>
         </Grid>
       </div>
